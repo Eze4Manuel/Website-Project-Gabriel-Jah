@@ -1,0 +1,2 @@
+# Website-Project-Gabriel-Jah
+A website project for gabriel jah. Gabriel Jah is a Recording Artist and a self motivated multimedia Engr. with a passionate drive towards creating a niche in the realm of multimedia through his expressions of Art. He has been privileged to work with clients around the world such as, Chevron, OGFZA (Oil and Gas Free trade Zones  Authority Nigeria),  OECD (London), Starium Nigeria, Zephyr Gold Int'l amongst others. He is the Founder of GEENATION, A multimedia and Entertainment Outfit
