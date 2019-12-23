@@ -1,0 +1,135 @@
+header nav {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+  header nav .row {
+    margin: 0px;
+    padding: 0px; }
+    header nav .row ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      height: 70px; }
+      header nav .row ul .section0 {
+        padding: 0px;
+        padding-left: 40px; }
+      header nav .row ul .section1 {
+        padding: 0px;
+        padding-right: 40px; }
+      header nav .row ul .section2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+        height: 200px;
+        width: 200px;
+        margin: 0px; }
+        header nav .row ul .section2 p {
+          text-align: center;
+          margin: 0px;
+          padding-top: 140px; }
+      header nav .row ul div {
+        margin-top: 15px; }
+        header nav .row ul div li a {
+          color: #fff;
+          font-size: 15px;
+          line-height: 2.5em; }
+        header nav .row ul div li a:hover {
+          opacity: 0.7;
+          border-radius: 3px; }
+
+@media screen and (max-width: 1080px) {
+  header nav {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    header nav .row {
+      margin: 0px;
+      padding: 0px; }
+      header nav .row ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: flex;
+        -ms-flex-pack: flex;
+        justify-content: flex; }
+        header nav .row ul .section0 {
+          padding: 0px;
+          padding-left: 10px; }
+        header nav .row ul .section1 {
+          padding: 0px;
+          padding-right: 10px; }
+        header nav .row ul .section2 {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          z-index: 1;
+          height: 150px;
+          width: 150px;
+          margin: 0px; }
+          header nav .row ul .section2 p {
+            text-align: center;
+            margin: 0px;
+            padding-top: 140px; }
+        header nav .row ul div {
+          margin-top: 15px; }
+          header nav .row ul div li a {
+            color: #fff;
+            font-size: 12px !important;
+            line-height: 2.5em; }
+          header nav .row ul div li a:hover {
+            opacity: 0.7;
+            border-radius: 3px; } }
+
+@media screen and (max-width: 910px) {
+  header nav {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    header nav .row {
+      margin: 0px;
+      padding: 0px; }
+      header nav .row ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        header nav .row ul .section0 {
+          padding: 0px;
+          padding-left: 40px; }
+        header nav .row ul .section1 {
+          padding: 0px;
+          padding-right: 40px; }
+        header nav .row ul .section2 {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          z-index: 1;
+          height: 100px;
+          width: 100px;
+          margin: 0px; }
+          header nav .row ul .section2 p {
+            text-align: center;
+            margin: 0px;
+            padding-top: 60px;
+            font-size: 10px; }
+        header nav .row ul div {
+          margin-top: 15px; }
+          header nav .row ul div li a {
+            color: #fff;
+            font-size: 13px;
+            line-height: 2.5em; }
+          header nav .row ul div li a:hover {
+            opacity: 0.7;
+            border-radius: 3px; } }

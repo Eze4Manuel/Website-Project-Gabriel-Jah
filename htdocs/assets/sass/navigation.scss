@@ -1,0 +1,192 @@
+
+
+
+header{
+   nav{
+      background-color: transparent;
+      box-shadow: none;
+
+    .row{
+        margin: 0px;
+        padding: 0px;
+        ul{
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          height: 70px;
+          .section0{
+            padding: 0px;
+            padding-left: 40px;
+          }
+
+            .section1{
+              padding: 0px;
+              padding-right: 40px;
+            }
+
+            .section2{
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              z-index: 1;
+              height: 200px;
+              width: 200px;
+              margin: 0px;
+
+                p{
+                  text-align: center;
+                  margin: 0px;
+                  padding-top: 140px;
+                }
+            }
+            div{
+              margin-top: 15px;
+
+                li a{
+                   color: #fff;
+                   font-size: 15px;
+                   line-height: 2.5em;
+                }
+
+                li a:hover{
+                    opacity: 0.7;
+                     border-radius: 3px;
+                }
+            }
+          }
+
+      }
+
+    }
+}
+
+
+
+//Style for Navigation below 1080px
+@media screen and (max-width: 1080px){
+
+  header{
+     nav{
+        background-color: transparent;
+        box-shadow: none;
+
+      .row{
+          margin: 0px;
+          padding: 0px;
+          ul{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex;
+
+            .section0{
+              padding: 0px;
+              padding-left: 10px;
+            }
+
+              .section1{
+                padding: 0px;
+                padding-right: 10px;
+              }
+
+              .section2{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                z-index: 1;
+                height: 150px;
+                width: 150px;
+                margin: 0px;
+
+                  p{
+                    text-align: center;
+                    margin: 0px;
+                    padding-top: 140px;
+                  }
+              }
+              div{
+                margin-top: 15px;
+
+                  li a{
+                     color: #fff;
+                     font-size: 12px!important;
+                     line-height: 2.5em;
+                  }
+
+                  li a:hover{
+                      opacity: 0.7;
+                       border-radius: 3px;
+                  }
+              }
+            }
+
+        }
+
+      }
+  }
+
+}
+
+
+
+//Style for Navigation below 910px
+@media screen and (max-width: 910px){
+header{
+   nav{
+      background-color: transparent;
+      box-shadow: none;
+
+    .row{
+        margin: 0px;
+        padding: 0px;
+        ul{
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+
+          .section0{
+            padding: 0px;
+            padding-left: 40px;
+          }
+
+            .section1{
+              padding: 0px;
+              padding-right: 40px;
+            }
+
+            .section2{
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              z-index: 1;
+              height: 100px;
+              width: 100px;
+              margin: 0px;
+
+                p{
+                  text-align: center;
+                  margin: 0px;
+                  padding-top: 60px;
+                  font-size: 10px;
+                }
+            }
+            div{
+              margin-top: 15px;
+
+                li a{
+                   color: #fff;
+                   font-size: 13px;
+                   line-height: 2.5em;
+                }
+
+                li a:hover{
+                    opacity: 0.7;
+                     border-radius: 3px;
+                }
+            }
+          }
+
+      }
+
+    }
+  }
+}
