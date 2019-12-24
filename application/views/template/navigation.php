@@ -13,6 +13,8 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bonbon|Dokdo|Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Almendra+SC|IM+Fell+English+SC|Marko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
     <!--AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -24,7 +26,7 @@
    <!-- Jquery Script -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <!--External Script linking -->
-   <script type="text/javascript" src="<?php echo base_url()?>assets/script/indexscript.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>assets/script/navigation.js"></script>
 
 </head>
   <body>
@@ -35,23 +37,52 @@
           <div class="col s12 m12 l12">
             <ul>
               <div class="section0">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">GABRIEL JAH</a></li>
-                <li><a href="#">GEEGUIDE</a></li>
+                <li><a href="index">HOME</a></li>
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="gabjah">GABRIEL JAH</a></li>
+                <li><a href="geeguide">GEEGUIDE</a></li>
               </div>
               <div class="section2" style="background-image: url('<?php echo base_url() ?>assets/image/background/logo.png">
-                <p>Powered by Sight & Sound</p>
+                  <p>Powered By Sight & Sound</p>
               </div>
               <div class="section1">
-                <li><a href="#">TUTORIALS</a></li>
-                <li><a href="#">REGISTER</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a href="tutorials">TUTORIALS</a></li>
+                <li><a href="register">REGISTER</a></li>
+                <li><a href="contact">CONTACT US</a></li>
               </div>
+
+              <span class="mobilebar">
+                <i class="material-icons">menu</i>
+              </span>
              </ul>
           </div>
         </div>
+        <div class="tabbar" style="background-image: url('<?php echo base_url() ?>assets/image/background/tab bg.png')"></div>
+
+
+
+        <div class="mobilesidenav">
+          <div class="tabuloid">
+
+            <ul>
+              <li id="fido"><i  class="medium material-icons">close</i></li>
+              <li> <a href="home"> HOME</a></li>
+              <li> <a href="about"> ABOUT</a> </li>
+              <li> <a href="gabjah"> GABRIEL JAH</a> </li>
+              <li> <a href="geeguide"> GEEGUIDE</a> </li>
+              <li> <a href="tutorials"> TUTORIALS</a> </li>
+              <li> <a href="register"> REGISTER</a> </li>
+              <li> <a href="contact"> CONTACT US</a> </li>
+
+            </ul>
+
+        </div>
+        </div>
+
       </nav>
     </header>
+
+
+
   </body>
 </html>

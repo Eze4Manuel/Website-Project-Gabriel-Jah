@@ -11,37 +11,105 @@ header nav {
       display: flex;
       -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
       height: 70px; }
       header nav .row ul .section0 {
         padding: 0px;
-        padding-left: 40px; }
+        padding-left: 8px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; }
       header nav .row ul .section1 {
         padding: 0px;
-        padding-right: 40px; }
+        padding-right: 8px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start; }
       header nav .row ul .section2 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        z-index: 1;
-        height: 200px;
-        width: 200px;
-        margin: 0px; }
+        z-index: 3;
+        height: 230px;
+        width: 230px;
+        margin: 0px;
+        position: relative;
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4); }
         header nav .row ul .section2 p {
-          text-align: center;
           margin: 0px;
-          padding-top: 140px; }
+          padding-top: 140px;
+          padding-left: 20px;
+          text-align: center;
+          font-family: 'IM Fell English SC', serif; }
       header nav .row ul div {
         margin-top: 15px; }
         header nav .row ul div li a {
           color: #fff;
           font-size: 15px;
-          line-height: 2.5em; }
+          line-height: 2.5em;
+          padding-left: 24px;
+          padding-right: 24px; }
         header nav .row ul div li a:hover {
           opacity: 0.7;
           border-radius: 3px; }
+  header nav .tabbar {
+    z-index: -1;
+    position: relative;
+    top: -115px;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.7; }
+  header nav .mobilesidenav {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    z-index: 8;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0d1b3a), color-stop(#0d1b3a), to(transparent));
+    background-image: -webkit-linear-gradient(top, #0d1b3a, #0d1b3a, transparent);
+    background-image: -o-linear-gradient(top, #0d1b3a, #0d1b3a, transparent);
+    background-image: linear-gradient(top, #0d1b3a, #0d1b3a, transparent);
+    top: -25px; }
+    header nav .mobilesidenav .tabuloid ul {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      z-index: 9;
+      height: 1000px;
+      padding-top: 40px; }
+      header nav .mobilesidenav .tabuloid ul li {
+        border-bottom: 1px solid grey; }
+        header nav .mobilesidenav .tabuloid ul li a {
+          color: #fff;
+          text-align: center;
+          font-weight: bold; }
+        header nav .mobilesidenav .tabuloid ul li i {
+          float: right;
+          padding-right: 20px;
+          cursor: pointer; }
+      header nav .mobilesidenav .tabuloid ul li:hover {
+        opacity: .7; }
+      header nav .mobilesidenav .tabuloid ul li:first-of-type {
+        border-bottom: none; }
 
 @media screen and (max-width: 1080px) {
   header nav {
@@ -49,8 +117,7 @@ header nav {
     -webkit-box-shadow: none;
     box-shadow: none; }
     header nav .row {
-      margin: 0px;
-      padding: 0px; }
+      margin: 0px; }
       header nav .row ul {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -70,23 +137,28 @@ header nav {
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
-          z-index: 1;
-          height: 150px;
-          width: 150px;
+          z-index: 3;
+          height: 200px;
+          width: 200px;
           margin: 0px; }
           header nav .row ul .section2 p {
-            text-align: center;
             margin: 0px;
-            padding-top: 140px; }
+            padding-top: 120px;
+            text-align: center;
+            font-family: 'IM Fell English SC', serif; }
         header nav .row ul div {
           margin-top: 15px; }
           header nav .row ul div li a {
             color: #fff;
-            font-size: 12px !important;
-            line-height: 2.5em; }
+            font-size: 12px;
+            line-height: 2.5em;
+            padding-left: 20px;
+            padding-right: 20px; }
           header nav .row ul div li a:hover {
             opacity: 0.7;
-            border-radius: 3px; } }
+            border-radius: 3px; }
+    header nav .tabbar {
+      top: -125px !important; } }
 
 @media screen and (max-width: 910px) {
   header nav {
@@ -96,6 +168,8 @@ header nav {
     header nav .row {
       margin: 0px;
       padding: 0px; }
+      header nav .row div {
+        padding: 0px !important; }
       header nav .row ul {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -107,29 +181,78 @@ header nav {
         justify-content: space-between; }
         header nav .row ul .section0 {
           padding: 0px;
-          padding-left: 40px; }
+          padding-left: 10px;
+          margin-left: 20px; }
         header nav .row ul .section1 {
           padding: 0px;
-          padding-right: 40px; }
+          padding-right: 10px;
+          margin-right: 20px; }
         header nav .row ul .section2 {
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
-          z-index: 1;
-          height: 100px;
-          width: 100px;
+          z-index: 3;
+          height: 150px;
+          width: 150px;
           margin: 0px; }
           header nav .row ul .section2 p {
-            text-align: center;
             margin: 0px;
-            padding-top: 60px;
-            font-size: 10px; }
+            padding-top: 95px;
+            padding-left: 0px;
+            text-align: center;
+            font-size: 11px;
+            font-family: 'IM Fell English SC', serif; }
         header nav .row ul div {
           margin-top: 15px; }
           header nav .row ul div li a {
             color: #fff;
-            font-size: 13px;
-            line-height: 2.5em; }
+            font-size: 11px;
+            line-height: 2.5em;
+            padding-left: 15px;
+            padding-right: 15px; }
           header nav .row ul div li a:hover {
             opacity: 0.7;
-            border-radius: 3px; } }
+            border-radius: 3px; }
+    header nav .tabbar {
+      top: -129px !important; } }
+
+/* The side navigation menu */
+.mobilebar {
+  color: white;
+  display: none;
+  padding-right: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content; }
+
+.mobilebar i {
+  line-height: 0px !important;
+  height: 20px !important;
+  margin-top: 30px !important;
+  cursor: pointer; }
+
+@media screen and (max-width: 743px) {
+  header nav .row ul .section0 {
+    display: none; }
+  header nav .row ul .section1 {
+    display: none; }
+  header nav .row ul .section2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px; }
+    header nav .row ul .section2 p {
+      margin: 0px;
+      padding-top: 75px;
+      padding-left: 0px;
+      text-align: center;
+      font-size: 7px;
+      width: 100px;
+      height: 190px;
+      line-height: 10px;
+      font-family: 'IM Fell English SC', serif; }
+  header nav .row ul .mobilebar {
+    display: block; }
+  header nav .tabbar {
+    display: none; }
+  header nav .mobilesidenav {
+    display: block; } }
