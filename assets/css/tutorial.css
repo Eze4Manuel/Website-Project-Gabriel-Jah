@@ -1,0 +1,211 @@
+header nav {
+  z-index: 20;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fefefe), to(#859491));
+  background-image: -webkit-linear-gradient(left, #fefefe, #859491);
+  background-image: -o-linear-gradient(left, #fefefe, #859491);
+  background-image: linear-gradient(to right, #fefefe, #859491); }
+
+body {
+  z-index: -10; }
+
+.dropGabriel {
+  z-index: 15; }
+
+.tuts {
+  height: 100vh;
+  margin-bottom: 80px; }
+  .tuts .remain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -9;
+    opacity: 1; }
+  .tuts .banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 70%;
+    top: 21%;
+    height: 200px;
+    display: none; }
+  .tuts .pop1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    width: 30%;
+    top: 10%;
+    left: -8%;
+    height: 150px;
+    z-index: 1;
+    -webkit-transition: 0.5s -webkit-transform;
+    transition: 0.5s -webkit-transform;
+    -o-transition: 0.5s transform;
+    transition: 0.5s transform;
+    transition: 0.5s transform, 0.5s -webkit-transform;
+    cursor: pointer; }
+  .tuts .pop2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    width: 60%;
+    top: 10%;
+    left: 65%;
+    height: 150px;
+    z-index: 1;
+    -webkit-transition: 0.5s -webkit-transform;
+    transition: 0.5s -webkit-transform;
+    -o-transition: 0.5s transform;
+    transition: 0.5s transform;
+    transition: 0.5s transform, 0.5s -webkit-transform;
+    cursor: pointer; }
+  .tuts .pop3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    width: 70%;
+    top: 75%;
+    left: 55%;
+    height: 150px;
+    -webkit-transition: 0.5s -webkit-transform;
+    transition: 0.5s -webkit-transform;
+    -o-transition: 0.5s transform;
+    transition: 0.5s transform;
+    transition: 0.5s transform, 0.5s -webkit-transform;
+    cursor: pointer;
+    z-index: 1; }
+  .tuts .pop1:hover, .tuts .pop2:hover, .tuts .pop3:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+  .tuts .freetext {
+    position: absolute;
+    width: 100%;
+    top: 10%; }
+    .tuts .freetext h4 {
+      text-align: center;
+      font-size: 50px;
+      margin: 0px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-left: 30px; }
+    .tuts .freetext p {
+      margin: 0px;
+      text-align: center;
+      font-weight: bold; }
+  .tuts .newsletter {
+    width: 30%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 26%;
+    left: 20%;
+    height: 100px;
+    padding-left: 40px;
+    display: none; }
+    .tuts .newsletter .row {
+      margin: 0px; }
+      .tuts .newsletter .row div {
+        width: 100%;
+        margin: 0px; }
+        .tuts .newsletter .row div input {
+          margin: 0px;
+          height: 30px; }
+        .tuts .newsletter .row div label {
+          font-size: 10px;
+          color: black; }
+    .tuts .newsletter button {
+      font-size: 10px;
+      height: 33px;
+      font-weight: bold; }
+  .tuts .tutvideo {
+    height: 100%;
+    width: 61%;
+    padding-left: 20px;
+    top: 45%;
+    position: absolute; }
+    .tuts .tutvideo .youtubes div {
+      margin-bottom: 20px; }
+      .tuts .tutvideo .youtubes div h5 {
+        margin-top: 80px;
+        font-weight: bold;
+        text-align: center; }
+
+.bait {
+  height: 700px;
+  background: white;
+  width: 100%;
+  top: 6200px;
+  position: absolute;
+  margin-top: 40px; }
+  .bait h4 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 180px; }
+
+@media screen and (max-width: 1200px) {
+  header nav .row ul .section2 {
+    top: -90px;
+    left: 50px;
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7); } }
+
+@media screen and (max-width: 1080px) {
+  header nav .row ul .section2 {
+    top: -90px;
+    left: 50px;
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7); } }
+
+@media screen and (max-width: 743px) {
+  .tuts {
+    background-position: left; }
+  .tuts .freetext h4 {
+    text-align: center;
+    font-size: 30px; }
+  p {
+    font-size: 14px; }
+  .tuts .banner {
+    width: 100%;
+    display: none; }
+  .tuts .newsletter {
+    width: 80%;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-top: 20px; }
+  .tuts .tutvideo {
+    width: 100%;
+    padding-right: 20px; }
+  .tuts .tutvideo .youtubes div h5 {
+    font-size: 16px;
+    font-weight: bold; }
+  .bait h4 {
+    font-size: 20px; }
+  .tuts .pop2 {
+    width: 30%;
+    left: 72%; }
+  .tuts .pop3 {
+    width: 30%;
+    left: 72%; } }
+
+header nav .row ul .section2 {
+  opacity: 0;
+  visibility: hidden; }
+
+nav {
+  position: fixed; }

@@ -1,0 +1,593 @@
+* {
+  scroll-behavior: smooth; }
+
+header nav .row ul .section2 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  top: -42px;
+  left: 60px; }
+
+header nav .row ul .section2 p {
+  display: none; }
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 13px;
+  color: #000;
+  font-weight: bold; }
+
+.dropdown-content {
+  width: 300px !important;
+  height: 331px !important;
+  top: -190px; }
+
+.suri {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%;
+  z-index: -2; }
+  .suri .firstpop a {
+    -webkit-transition: 0.5s -webkit-transform;
+    transition: 0.5s -webkit-transform;
+    -o-transition: 0.5s transform;
+    transition: 0.5s transform;
+    transition: 0.5s transform, 0.5s -webkit-transform; }
+  .suri .firstpop a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  .suri .firstpop img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 0; }
+  .suri .secondpop a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+  .suri .secondpop img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80%;
+    opacity: 0; }
+
+body {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: -100; }
+
+.blocker {
+  height: 65px;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .98; }
+
+.remain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -5;
+  opacity: 1; }
+
+.registerpage {
+  display: none;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 5px;
+  left: 0;
+  z-index: -2;
+  height: 1000px; }
+  .registerpage div.registerrow {
+    margin-bottom: 0px !important; }
+    .registerpage div.registerrow .pict {
+      display: inline-block;
+      margin-top: 120px; }
+      .registerpage div.registerrow .pict .jah {
+        position: absolute;
+        top: 60px; }
+      .registerpage div.registerrow .pict img {
+        width: 30%;
+        height: 85%; }
+      .registerpage div.registerrow .pict .pic1 {
+        width: 39%;
+        height: 55%;
+        left: -2%; }
+      .registerpage div.registerrow .pict .pic2 {
+        width: 26%;
+        height: 60%; }
+      .registerpage div.registerrow .pict .pic3 {
+        height: 55%;
+        width: 25%;
+        opacity: 0; }
+      .registerpage div.registerrow .pict .pic4 {
+        width: 25%;
+        height: 50%;
+        opacity: 0; }
+      .registerpage div.registerrow .pict .pic5 {
+        width: 30%;
+        height: 39%;
+        top: 120px;
+        opacity: 0; }
+      .registerpage div.registerrow .pict .pic6 {
+        opacity: 0;
+        height: 61%; }
+    .registerpage div.registerrow .formdiv {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(white), to(white));
+      background-image: -webkit-linear-gradient(top, transparent, white, white);
+      background-image: -o-linear-gradient(top, transparent, white, white);
+      background-image: linear-gradient(to bottom, transparent, white, white);
+      height: 700px;
+      width: 40%;
+      position: relative;
+      left: 30%;
+      top: -70px;
+      z-index: 2;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 120px 30px 30px 30px;
+      opacity: 0.98;
+      border-radius: 4px;
+      -webkit-box-shadow: 2px 9px 14px black;
+      box-shadow: 2px 9px 14px black; }
+      .registerpage div.registerrow .formdiv .buttons {
+        padding-top: 30px;
+        margin-top: 0px;
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .registerpage div.registerrow .formdiv .buttons button {
+          margin-right: 30px; }
+    .registerpage div.registerrow .priceRange {
+      margin-top: 80px;
+      padding: 10px;
+      border: 4px dashed orange;
+      border-radius: 5px; }
+      .registerpage div.registerrow .priceRange p {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .registerpage .icons {
+    height: 70px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    bottom: 120px; }
+    .registerpage .icons a {
+      width: 7%;
+      height: 100%;
+      border-radius: 100% !important; }
+      .registerpage .icons a .nion {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; }
+    .registerpage .icons a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+  .registerpage .footing {
+    position: absolute;
+    bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+    padding-left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    z-index: 2; }
+    .registerpage .footing h6 {
+      color: yellow;
+      font-size: 15px; }
+    .registerpage .footing ul li {
+      color: #fff;
+      font-size: 12px; }
+    .registerpage .footing ul li a {
+      color: #fff;
+      font-size: 12px; }
+    .registerpage .footing ul li a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      opacity: .6; }
+
+.popup {
+  position: relative;
+  top: 20%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1; }
+  .popup div div .card {
+    border-radius: 10px;
+    background: gainsboro;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .popup div div .card .card-content span {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      color: orange; }
+    .popup div div .card .card-content p {
+      margin-bottom: 0px;
+      padding: 0% 8%;
+      padding-bottom: 40px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff; }
+    .popup div div .card .card-content #introvid {
+      padding-left: 2%;
+      padding-right: 2%;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 615px;
+      padding-top: 100px; }
+    .popup div div .card .card-content .newsletter {
+      margin-bottom: 30px;
+      text-align: center; }
+      .popup div div .card .card-content .newsletter h5 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000; }
+      .popup div div .card .card-content .newsletter form {
+        padding-top: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 40px; }
+        .popup div div .card .card-content .newsletter form input {
+          width: 60%;
+          padding-left: auto; }
+      .popup div div .card .card-content .newsletter p {
+        text-align: center; }
+
+@media screen and (max-width: 1200px) {
+  .registerpage div.registerrow .pict img {
+    width: 33%;
+    height: 65%; }
+  .registerpage div.registerrow .pict .pic1 {
+    width: 47%;
+    left: -6%; }
+  .registerpage div.registerrow .pict .pic2 {
+    height: 55%; }
+  .registerpage div.registerrow .pict .pic4 {
+    width: 31%; }
+  .registerpage div.registerrow .pict .pic6 {
+    width: 28%; }
+  .registerpage div.registerrow .pict .pic3 {
+    width: 28%; }
+  .registerpage div.registerrow .pict .pic6 {
+    height: 50%; }
+  .registerpage div.registerrow .formdiv {
+    height: 650px;
+    width: 50%;
+    left: 27%;
+    top: -60px !important;
+    padding: 120px 30px 30px 30px; }
+  .registerpage div.registerrow .priceRange {
+    border: 4px dashed orange;
+    border-radius: 5px; } }
+
+@media screen and (max-width: 1080px) {
+  .registerpage div.registerrow .pict img {
+    width: 33%;
+    height: 65%; }
+  .registerpage div.registerrow .pict .pic1 {
+    width: 50%; }
+  .registerpage div.registerrow .pict .pic2 {
+    height: 55%;
+    width: 30%; }
+  .registerpage div.registerrow .pict .pic4 {
+    width: 31%; }
+  .registerpage div.registerrow .pict .pic6 {
+    width: 28%; }
+  .registerpage div.registerrow .pict .pic3 {
+    width: 28%;
+    height: 50%; }
+  .registerpage div.registerrow .formdiv {
+    height: 650px;
+    width: 50%;
+    left: 29%;
+    top: -72px !important;
+    padding: 120px 30px 30px 30px; }
+  .registerpage div.registerrow .priceRange {
+    border: 4px dashed orange;
+    border-radius: 5px; } }
+
+@media screen and (max-width: 996px) {
+  .popup {
+    width: 90%; }
+  .registerpage div.registerrow .pict img {
+    width: 33%;
+    height: 55%; }
+  .registerpage div.registerrow .pict .pic1 {
+    width: 47%;
+    height: 40%;
+    left: -7%; }
+  .registerpage div.registerrow .pict .pic2 {
+    height: 55%;
+    display: none; }
+  .registerpage div.registerrow .pict .pic4 {
+    width: 35%; }
+  .registerpage div.registerrow .pict .pic5 {
+    height: 40%;
+    display: none; }
+  .registerpage div.registerrow .pict .pic6 {
+    display: none; }
+  .registerpage div.registerrow .pict .pic3 {
+    width: 28%;
+    height: 45%; }
+  .registerpage div.registerrow .formdiv {
+    height: 650px;
+    width: 60%;
+    left: 22%;
+    top: -89px !important;
+    padding: 120px 30px 30px 30px; }
+  .registerpage div.registerrow .priceRange {
+    border: 4px dashed orange;
+    border-radius: 5px; } }
+
+@media screen and (max-width: 996px) {
+  .popup {
+    top: 15%; } }
+
+@media screen and (max-width: 814px) {
+  .registerpage div.registerrow .pict img {
+    width: 33%;
+    height: 55%; }
+  .registerpage div.registerrow .pict .pic1 {
+    width: 47%;
+    height: 35%;
+    left: -7%; }
+  .registerpage div.registerrow .pict .pic2 {
+    height: 55%; }
+  .registerpage div.registerrow .pict .pic4 {
+    width: 39%;
+    height: 45%; }
+  .registerpage div.registerrow .pict .pic5 {
+    height: 40%; }
+  .registerpage div.registerrow .pict .pic3 {
+    width: 32%;
+    height: 40%; }
+  .registerpage div.registerrow .formdiv {
+    height: 650px;
+    width: 60%;
+    left: 22%;
+    top: -89px !important;
+    padding: 120px 30px 30px 30px; }
+  .registerpage div.registerrow .priceRange {
+    border: 4px dashed orange;
+    border-radius: 5px; } }
+
+@media screen and (max-width: 743px) {
+  .popup div div .card .card-content p {
+    padding: 3% 4%; }
+  .popup {
+    top: 10%; }
+  .popup div div .card .card-content #introvid {
+    height: 300px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px; }
+  .dropdown-content {
+    width: 300px !important;
+    top: -190px; }
+  header nav .row ul .section2 {
+    margin-top: 20px;
+    margin-left: 0px;
+    left: 2%;
+    z-index: 39;
+    position: relative; }
+  .blocker {
+    display: none; }
+  .registerpage div.registerrow .pict {
+    display: none; }
+    .registerpage div.registerrow .pict img {
+      width: 33%;
+      height: 45%; }
+    .registerpage div.registerrow .pict .pic1 {
+      width: 37%;
+      height: 35%;
+      left: -7%; }
+    .registerpage div.registerrow .pict .pic2 {
+      height: 45%; }
+    .registerpage div.registerrow .pict .pic4 {
+      width: 36%;
+      height: 45%; }
+    .registerpage div.registerrow .pict .pic5 {
+      height: 30%; }
+    .registerpage div.registerrow .pict .pic3 {
+      width: 28%; }
+  .registerpage div.registerrow .formdiv {
+    height: 650px;
+    width: 70%;
+    left: 15%;
+    top: 50px !important;
+    padding: 90px 30px 30px 30px; }
+  .registerpage div.registerrow .priceRange {
+    border: 4px dashed orange;
+    border-radius: 5px; }
+  .registerpage .icons {
+    bottom: -110px;
+    z-index: 3; }
+  .registerpage .footing {
+    bottom: -205px; }
+    .registerpage .footing div h6 {
+      font-size: 11px; }
+    .registerpage .footing div ul li, .registerpage .footing div ul li a {
+      font-size: 9px; }
+  .suri .firstpop img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 5%;
+    top: 10px;
+    opacity: 0; }
+  .suri .secondpop {
+    display: none; } }
+
+@media screen and (max-width: 603px) {
+  .dropdown-content {
+    width: 200px !important;
+    top: -200px;
+    z-index: 4000; }
+  .registerpage div.registerrow .pict {
+    display: inline-block;
+    margin-top: 120px; }
+    .registerpage div.registerrow .pict img {
+      width: 100%;
+      height: 100%;
+      display: none; }
+  .registerpage div.registerrow .formdiv {
+    height: 850px;
+    width: 94%;
+    left: 3%;
+    top: -340px !important;
+    padding: 80px 30px 30px 30px; }
+  .registerpage div.registerrow .priceRange {
+    border: 4px dashed orange; }
+  .registerpage .icons {
+    bottom: -15px; }
+  .registerpage a {
+    width: 10% !important; }
+  .registerpage .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .registerpage .footing div {
+      min-width: 150px; } }
+
+@media screen and (max-width: 459px) {
+  .suri .firstpop img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    top: 10px;
+    opacity: 0; }
+  .registerpage .icons {
+    bottom: 60px !important; }
+  .popup div div .card .card-content p {
+    padding: 3% 2%;
+    font-size: 12px; }
+  .popup {
+    top: 10%;
+    width: 98%; }
+  #cont {
+    margin-left: 20px; }
+  #temp {
+    margin-left: 40px; } }
+
+@media screen and (max-width: 370px) {
+  .registerpage .icons {
+    bottom: 60px !important; }
+  #cont {
+    margin-left: 0px; }
+  #temp {
+    margin-left: 0px; } }
+
+@media screen and (max-width: 310px) {
+  .registerpage {
+    height: 1300px; }
+  .registerpage .icons {
+    bottom: 290px !important; }
+  #temp {
+    margin-left: 30px; } }
+
+.input-field > input {
+  color: #000;
+  font-weight: bold; }
+
+.input-field > label {
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 10px; }
+
+input:-internal-autofill-selected {
+  background-color: transparent !important; }
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: orange !important; }
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid orange !important;
+  -webkit-box-shadow: 0 1px 0 0 orange !important;
+  box-shadow: 0 1px 0 0 orange !important; }
+
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid red !important;
+  -webkit-box-shadow: 0 1px 0 0 red !important;
+  box-shadow: 0 1px 0 0 red !important; }
+
+.input-field input[placeholder=Fullname] {
+  color: black; }
+
+[type="radio"] + span:not(.lever) {
+  display: block !important;
+  padding-left: 25px;
+  color: black; }
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea:active {
+  border-bottom: 1px solid orange; }
+
+.placeholder {
+  color: black; }
+
+article, aside, footer, header, nav, section {
+  position: fixed; }

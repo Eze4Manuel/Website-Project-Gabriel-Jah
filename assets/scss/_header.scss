@@ -1,0 +1,99 @@
+html{
+  scroll-behavior: smooth!important;
+
+}
+ #header{
+     background: transparent!important;
+     border: none!important;
+        z-index: 10;
+        position: relative;
+     nav{
+        background: transparent!important;
+        border: none!important;
+        box-shadow: none;
+         .nav-wrapper{
+            border: none;
+
+             ul{
+                 margin-left: 70px;
+                 display: flex;
+                 justify-content: space-between;
+                 width: 90%;
+                 li{
+                   a{
+                     font-size: 13px;
+                     img{
+                       width: 200px;
+                       height: 40px;
+                       margin-top: 10px;
+                     }
+                   }
+                   a:hover{
+                     background: #B78735!important;
+                   }
+                 }
+
+                 a.hire{
+                    background: #B78735;
+                   margin-top: 15px;
+                   transition: 0.3s;
+
+                 }
+                 a.hire:hover{
+                    background: #fff;
+                   margin-top: 15px;
+                   border: 1px solid #B78735;
+                   transition: 0.3s;
+                   color: #B78735;
+                 }
+             }
+         }
+     }
+ }
+
+
+.sidenav {
+  background: #B78735!important;
+  .user-view .name, .sidenav .user-view .email{
+    color: #000!important;
+  }
+  li{
+    a{
+      color: #fff!important;
+    }
+
+  }
+  li#first{
+    height: 100px!important;
+    a{
+      background: #333!important;
+      height: inherit!important;
+      img{
+        padding-top: 20px;
+      }
+    }
+  }
+}
+ *{
+     font-family: 'Poppins', sans-serif;
+ }
+body::-webkit-scrollbar {
+    width: 4px;
+    height: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #B78735;
+    border-radius: 3px;
+}
+
+div.sidenav-overlay{
+  left: 300px!important;
+}
+
+@media screen and (max-width: 993px){
+  #header{
+    background: #B78735!important;
+    position: fixed!important;
+  }
+}

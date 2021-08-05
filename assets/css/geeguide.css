@@ -1,0 +1,333 @@
+body {
+  z-index: -10; }
+
+header nav .row ul .section2 {
+  display: none; }
+
+header nav {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8); }
+
+.suri {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%;
+  z-index: -1; }
+  .suri .firstpop a {
+    -webkit-transition: 0.5s -webkit-transform;
+    transition: 0.5s -webkit-transform;
+    -o-transition: 0.5s transform;
+    transition: 0.5s transform;
+    transition: 0.5s transform, 0.5s -webkit-transform; }
+  .suri .firstpop a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  .suri .firstpop img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 0; }
+  .suri .secondpop a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+  .suri .secondpop img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80%;
+    opacity: 0; }
+
+.remain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -5;
+  opacity: 1; }
+
+.geeguidepage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -3;
+  position: fixed;
+  top: 0px; }
+
+.geeguideicon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 130px;
+  z-index: 2;
+  position: fixed;
+  top: 0px;
+  left: 41%; }
+
+.geeguidedele {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  z-index: -2;
+  position: absolute;
+  top: 0px; }
+
+.mouse {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  left: -0%;
+  z-index: -1;
+  position: absolute;
+  top: 90px; }
+
+.geeguidemouse {
+  width: 400px; }
+
+.geeguidefela {
+  position: relative;
+  height: 1000px;
+  top: 700px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 60px;
+  z-index: -2; }
+  .geeguidefela h4, .geeguidefela h5 {
+    color: #d29200;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px; }
+  .geeguidefela p {
+    color: #fff;
+    font-weight: bold;
+    text-align: center; }
+  .geeguidefela ul li {
+    color: #fff;
+    font-weight: bold;
+    text-align: center; }
+
+.home {
+  margin-bottom: 0px !important;
+  height: 0px; }
+  .home .icons {
+    height: 70px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    z-index: -2;
+    bottom: 10px;
+    top: 830px; }
+    .home .icons a {
+      width: 7%;
+      height: 100%;
+      border-radius: 100% !important;
+      -webkit-transition: -webkit-transform 0.5s;
+      transition: -webkit-transform 0.5s;
+      -o-transition: transform 0.5s;
+      transition: transform 0.5s;
+      transition: transform 0.5s, -webkit-transform 0.5s; }
+      .home .icons a .nion {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; }
+    .home .icons a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+  .home .footing {
+    position: relative;
+    bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+    padding-left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    top: 800px;
+    z-index: -1; }
+    .home .footing h6 {
+      color: yellow;
+      font-size: 15px; }
+    .home .footing ul li {
+      color: #fff;
+      font-size: 12px; }
+    .home .footing ul li a {
+      color: #fff;
+      font-size: 12px; }
+    .home .footing ul li a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      opacity: .6; }
+
+@media screen and (max-width: 1200px) {
+  .home .geeguidedele {
+    width: 75%;
+    left: 24%;
+    height: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 90px; }
+  .home .geeguidefela {
+    width: 80%;
+    padding-bottom: 0px; }
+  .mouse {
+    width: 350px;
+    height: 500px;
+    left: -0%;
+    z-index: -1;
+    position: absolute;
+    top: 90px; } }
+
+@media screen and (max-width: 1080px) {
+  .home .geeguidedele {
+    width: 95%;
+    left: 1%; }
+  .home .geeguidefela {
+    width: 85%; }
+  .mouse {
+    width: 250px; } }
+
+@media screen and (max-width: 743px) {
+  .home .geeguidedele {
+    width: 100%;
+    left: 1%; }
+  .home .geeguidefela {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 600px;
+    height: 900px; }
+  .home .footing div h6 {
+    font-size: 14px; }
+  .home .footing div ul li a {
+    font-size: 11px; }
+  .geeguideicon {
+    z-index: -1; }
+  header nav {
+    background: transparent; }
+  .mouse {
+    display: none; }
+  header nav .row ul .section2 {
+    opacity: 0;
+    visibility: visible;
+    display: block; }
+  .suri .firstpop img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 5%;
+    top: 10px;
+    opacity: 0; }
+  .suri .secondpop {
+    display: none; } }
+
+@media screen and (max-width: 603px) {
+  .home .geeguidefela {
+    top: 550px;
+    height: 950px; }
+  .home .icons {
+    bottom: 282px;
+    display: none; }
+  .home a {
+    width: 10% !important; }
+  .home .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .home .footing div {
+      min-width: 150px; }
+      .home .footing div h6 {
+        font-size: 12px; }
+      .home .footing div ul li, .home .footing div ul li a {
+        font-size: 10px; }
+    .home .footing .mini {
+      padding-left: 10px; } }
+
+@media screen and (max-width: 503px) {
+  .suri .firstpop img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 5%;
+    top: 10px;
+    opacity: 0; }
+  .home .geeguidefela {
+    padding-top: 10px; }
+  .geeguidefela h4, .geeguidefela h5 {
+    font-size: 20px;
+    margin-bottom: 0px; }
+  .geeguidefela p {
+    font-weight: normal;
+    font-size: 13px; }
+  .geeguidefela ul li {
+    font-weight: normal; }
+  .geeguideicon {
+    left: 35%;
+    width: 90px; } }
+
+@media screen and (max-width: 445px) {
+  .icons {
+    bottom: 282px; }
+  .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .footing div {
+      min-width: 150px; }
+      .footing div h6 {
+        font-size: 12px; }
+      .footing div ul li, .footing div ul li a {
+        font-size: 10px; }
+    .footing .mini {
+      padding-left: 20px; } }
+
+@media screen and (max-width: 353px) {
+  .mini {
+    padding-left: 8px !important; } }
+
+@media screen and (max-width: 320px) {
+  .home .geeguidefela {
+    height: 1000px; }
+  .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .footing div {
+      min-width: 150px; } }

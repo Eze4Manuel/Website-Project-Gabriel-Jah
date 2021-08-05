@@ -1,0 +1,36 @@
+
+
+.blog{
+  height: 100vh!important;
+  h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppinsblack;
+    color: #fff;
+    margin-top: 40px;
+  }
+  .vid{
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+    video{
+      width: 60%;
+      height: 500px;
+      margin: auto;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 650px){
+  .blog .vid {
+    padding-top: 30px;
+    video{
+      width: 95%;
+      height: auto;
+    }
+  }
+}

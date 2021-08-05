@@ -1,0 +1,115 @@
+body {
+  z-index: -10; }
+
+.remain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -5;
+  opacity: 1; }
+
+.suri {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%;
+  z-index: -1; }
+  .suri .firstpop a {
+    -webkit-transition: 0.5s -webkit-transform;
+    transition: 0.5s -webkit-transform;
+    -o-transition: 0.5s transform;
+    transition: 0.5s transform;
+    transition: 0.5s transform, 0.5s -webkit-transform; }
+  .suri .firstpop a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  .suri .firstpop img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 0; }
+  .suri .secondpop a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+  .suri .secondpop img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80%;
+    opacity: 0; }
+
+.dangoro {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  padding-top: 40px;
+  z-index: -1; }
+  .dangoro .container {
+    width: 80%; }
+  .dangoro .row div {
+    margin-bottom: 90px; }
+
+.card .card-image {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: white; }
+
+.card .card-image img {
+  height: 250px; }
+
+.card .card-action {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px; }
+  .card .card-action p {
+    margin-bottom: 5px; }
+
+@media screen and (max-width: 1200px) {
+  header nav .row ul .section2 {
+    top: -40px;
+    left: 50px;
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7); } }
+
+@media screen and (max-width: 743px) {
+  header nav .row ul .section2 {
+    left: 20px !important;
+    top: -20px !important; }
+  .dangoro .row div {
+    margin-bottom: 40px; }
+  .card .card-image img {
+    height: 350px; }
+  .card .card-action p {
+    margin: 0px;
+    font-size: 16px !important; }
+  .suri .firstpop img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 5%;
+    top: 10px;
+    opacity: 0; }
+  .suri .secondpop {
+    display: none; } }
+
+header nav .row ul .section2 {
+  opacity: 0;
+  visibility: hidden; }
+
+nav {
+  position: fixed; }

@@ -1,0 +1,495 @@
+header nav .row ul .section2 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  top: -32px; }
+
+header nav .row ul .section2 p {
+  display: none; }
+
+audio {
+  height: 20px; }
+
+body {
+  position: absolute;
+  width: 100%;
+  z-index: -100;
+  height: 100vh; }
+
+.blocker {
+  height: 65px;
+  position: fixed;
+  z-index: -3;
+  top: 0;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .98; }
+
+.remain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -5;
+  opacity: 1; }
+
+.registerpage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -65px;
+  left: 0;
+  z-index: -6; }
+
+div.registerrow {
+  margin-bottom: 0px !important;
+  height: 0px; }
+  div.registerrow .pict {
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 0px; }
+  div.registerrow .pict1 {
+    position: fixed;
+    top: -0px;
+    left: -4%;
+    z-index: -4;
+    opacity: .2; }
+    div.registerrow .pict1 img {
+      width: 300%;
+      height: 100%; }
+  div.registerrow .gab {
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 33px;
+    z-index: 2;
+    opacity: 0.9;
+    background-clip: content-box;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  div.registerrow .jah {
+    position: fixed;
+    top: 75px;
+    z-index: 3;
+    display: none;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  div.registerrow .songs {
+    height: 1400px;
+    padding-top: 200px;
+    position: relative;
+    z-index: -4; }
+    div.registerrow .songs .vidblock {
+      margin-bottom: 0px; }
+      div.registerrow .songs .vidblock .vid1 {
+        padding-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        div.registerrow .songs .vidblock .vid1 img {
+          height: 320px;
+          width: 100%; }
+        div.registerrow .songs .vidblock .vid1 p {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          margin-top: 0px; }
+          div.registerrow .songs .vidblock .vid1 p .listen, div.registerrow .songs .vidblock .vid1 p .Download {
+            cursor: pointer !important; }
+          div.registerrow .songs .vidblock .vid1 p span {
+            padding-right: 10px;
+            color: #fff;
+            font-weight: bold; }
+          div.registerrow .songs .vidblock .vid1 p audio {
+            display: none; }
+    div.registerrow .songs hr {
+      border-radius: 200% !important;
+      height: 2px;
+      background: white;
+      border-top-right-radius: 30px; }
+  div.registerrow .youtubes div .video-container {
+    margin-bottom: 50px; }
+  div.registerrow .youtubes div .tube1 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 12px 13px 15px black;
+    box-shadow: 12px 13px 15px black;
+    z-index: -4; }
+  div.registerrow .youtubes div .tube2 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 12px 13px 15px black;
+    box-shadow: 12px 13px 15px black;
+    z-index: -4; }
+  div.registerrow .youtubes div .tube3 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 12px 10px 15px black;
+    box-shadow: 12px 10px 15px black;
+    z-index: -4; }
+  div.registerrow .icons {
+    height: 70px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    z-index: -2;
+    bottom: 10px; }
+    div.registerrow .icons a {
+      width: 7%;
+      height: 100%;
+      border-radius: 100% !important;
+      -webkit-transition: -webkit-transform 0.5s;
+      transition: -webkit-transform 0.5s;
+      -o-transition: transform 0.5s;
+      transition: transform 0.5s;
+      transition: transform 0.5s, -webkit-transform 0.5s; }
+      div.registerrow .icons a .nion {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; }
+    div.registerrow .icons a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+  div.registerrow .footing {
+    position: relative;
+    bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+    padding-left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    z-index: -3; }
+    div.registerrow .footing h6 {
+      color: yellow;
+      font-size: 15px; }
+    div.registerrow .footing ul li {
+      color: #fff;
+      font-size: 12px; }
+    div.registerrow .footing ul li a {
+      color: #fff;
+      font-size: 12px; }
+    div.registerrow .footing ul li a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      opacity: .6; }
+
+@media screen and (max-width: 1200px) {
+  .registerpage div.registerrow .songs .vidblock .vid1 img {
+    height: 260px; }
+  div.registerrow .pict1 {
+    top: 60px; }
+  div.registerrow .gab {
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(transparent), color-stop(#331806), color-stop(#331806), color-stop(transparent), to(transparent));
+    background-image: -webkit-linear-gradient(left, transparent, transparent, #331806, #331806, transparent, transparent);
+    background-image: -o-linear-gradient(left, transparent, transparent, #331806, #331806, transparent, transparent);
+    background-image: linear-gradient(left, transparent, transparent, #331806, #331806, transparent, transparent);
+    height: 112px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 40px;
+    z-index: 2;
+    opacity: 0.9;
+    background-clip: content-box;
+    padding: 0px; }
+  div.registerrow .songs {
+    width: 80%;
+    padding-top: 140px; } }
+
+@media screen and (max-width: 1080px) {
+  div.registerrow .pict1 {
+    top: 40px;
+    width: 38% !important; }
+  div.registerrow .gab {
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(transparent), color-stop(transparent), color-stop(#331806), color-stop(#331806), color-stop(transparent), color-stop(transparent), to(transparent));
+    background-image: -webkit-linear-gradient(left, transparent, transparent, transparent, #331806, #331806, transparent, transparent, transparent);
+    background-image: -o-linear-gradient(left, transparent, transparent, transparent, #331806, #331806, transparent, transparent, transparent);
+    background-image: linear-gradient(left, transparent, transparent, transparent, #331806, #331806, transparent, transparent, transparent);
+    height: 112px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 40px;
+    z-index: 2;
+    opacity: 0.9;
+    background-clip: content-box;
+    padding: 0px; }
+  div.registerrow .songs {
+    height: 100px; }
+    div.registerrow .songs .vidblock .vid1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      div.registerrow .songs .vidblock .vid1 img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 280px; }
+  .youtubes {
+    padding-top: 0px; }
+    .youtubes div .video-container {
+      margin-bottom: 50px; }
+    .youtubes div .tube1 {
+      margin-top: 140px; }
+    .youtubes div .tube2 {
+      margin-bottom: 50px; }
+    .youtubes div .tube3 {
+      margin-bottom: 50px; } }
+
+@media screen and (max-width: 996px) {
+  .container {
+    width: 100%; }
+  div.registerrow .pict1 {
+    top: 40px;
+    width: 40% !important; }
+  div.registerrow .gab {
+    height: 112px;
+    top: 40px; }
+  div.registerrow .songs hr {
+    display: none; }
+  div.registerrow .songs .vidblock .vid1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0px; }
+    div.registerrow .songs .vidblock .vid1 img {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 320px; } }
+
+@media screen and (max-width: 743px) {
+  .blocker {
+    display: none; }
+  header nav .row ul .section2 {
+    display: block !important;
+    margin-top: 15px;
+    opacity: 0; }
+  header nav .row ul .section2 p {
+    display: block;
+    opacity: 0; }
+  div.registerrow .pict1 {
+    top: 40px;
+    width: 60% !important;
+    left: -29%; }
+  div.registerrow .gab {
+    height: 110px;
+    top: -4%;
+    z-index: -2; }
+  div.registerrow .jah {
+    top: 1px; }
+  div.registerrow .songs {
+    padding-top: 160px; }
+    div.registerrow .songs hr {
+      display: none; }
+    div.registerrow .songs .vidblock .vid1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      div.registerrow .songs .vidblock .vid1 img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px; }
+  div.registerrow .footing div h6 {
+    font-size: 14px; }
+  div.registerrow .footing div ul li a {
+    font-size: 11px; } }
+
+@media screen and (max-width: 603px) {
+  .blocker {
+    display: none; }
+  div.registerrow .pict1 {
+    top: 32px;
+    width: 60% !important;
+    left: -29%; }
+  div.registerrow .gab {
+    height: 120px;
+    top: -6%; }
+  div.registerrow .jah {
+    top: 1px;
+    text-align: left; }
+  div.registerrow .songs {
+    padding-top: 220px; }
+    div.registerrow .songs hr {
+      display: none; }
+    div.registerrow .songs .vidblock .vid1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      div.registerrow .songs .vidblock .vid1 img {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px; }
+  div.registerrow .icons {
+    bottom: 235px; }
+  div.registerrow .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    div.registerrow .footing div {
+      min-width: 130px; } }
+
+@media screen and (max-width: 490px) {
+  .blocker {
+    display: none; }
+  div.registerrow .pict1 {
+    top: 25px; }
+  div.registerrow .gab {
+    height: 110px;
+    top: -6%; }
+  div.registerrow .jah {
+    top: 1px; }
+  div.registerrow .songs {
+    padding-top: 100px; }
+    div.registerrow .songs .vidblock .vid1 img {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 400px; }
+  div.registerrow .icons {
+    bottom: 245px; }
+  div.registerrow .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    div.registerrow .footing div {
+      min-width: 150px; } }
+
+@media screen and (max-width: 460px) {
+  .registerpage div.registerrow .icons {
+    bottom: 330px !important; }
+  .registerpage div.registerrow .icons a {
+    width: 9%; } }
+
+@media screen and (max-width: 425px) {
+  .blocker {
+    display: none; }
+  .registerpage div.registerrow .footing div h6 {
+    font-size: 12px; }
+  .registerpage div.registerrow .footing div ul li a {
+    font-size: 11px; }
+  div.registerrow .pict1 {
+    top: 40px;
+    width: 60% !important;
+    left: -29%; }
+    div.registerrow .pict1 img {
+      width: 500%; }
+  div.registerrow .gab {
+    height: 130px;
+    top: -7.5%; }
+  div.registerrow .jah {
+    top: 1px; }
+  div.registerrow .songs {
+    padding-top: 75px; }
+    div.registerrow .songs .vidblock .vid1 img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 350px; }
+  div.registerrow .icons {
+    bottom: 7px; }
+  div.registerrow a {
+    width: 10% !important; }
+  div.registerrow .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    div.registerrow .footing div {
+      min-width: 150px; } }
+
+@media screen and (max-width: 380px) {
+  div.registerrow .songs .vidblock .vid1 img {
+    height: 300px; }
+  div.registerrow .gab {
+    height: 150px;
+    top: -9.8%; } }
+
+@media screen and (max-width: 320px) {
+  .blocker {
+    display: block;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), to(transparent));
+    background-image: -webkit-linear-gradient(top, transparent, transparent, transparent);
+    background-image: -o-linear-gradient(top, transparent, transparent, transparent);
+    background-image: linear-gradient(to bottom, transparent, transparent, transparent);
+    z-index: -2;
+    height: 17px; }
+  .registerpage div.registerrow .footing div h6 {
+    font-size: 12px; }
+  .registerpage div.registerrow .footing div ul li a {
+    font-size: 11px; }
+  div.registerrow .pict1 {
+    top: 48px;
+    width: 60%;
+    left: -29%; }
+    div.registerrow .pict1 img {
+      width: 500%; }
+  div.registerrow .gab {
+    background-image: -webkit-gradient(linear, left top, right top, from(#331806), color-stop(#331806), color-stop(#331806), to(transparent));
+    background-image: -webkit-linear-gradient(left, #331806, #331806, #331806, transparent);
+    background-image: -o-linear-gradient(left, #331806, #331806, #331806, transparent);
+    background-image: linear-gradient(left, #331806, #331806, #331806, transparent);
+    height: 110px;
+    top: -4%;
+    z-index: 2; }
+  div.registerrow .jah {
+    top: 0px; }
+    div.registerrow .jah p {
+      left: 6%;
+      font-size: 25px; }
+  div.registerrow .songs {
+    padding-top: 60px; }
+    div.registerrow .songs .vidblock .vid1 img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 280px; }
+  div.registerrow .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    div.registerrow .footing div {
+      min-width: 150px; } }
+
+header nav .row ul .section2 {
+  display: none; }
+
+article, aside, footer, header, nav, section {
+  position: fixed; }
+
+.tube1 body #player .html5-video-player .ytp-chrome-top .ytp-title-text a {
+  display: none !important; }

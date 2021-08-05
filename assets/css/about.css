@@ -1,0 +1,330 @@
+body {
+  z-index: -10; }
+
+.remain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -5;
+  opacity: 1; }
+
+.aboutpage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2000px;
+  position: absolute;
+  top: -64px;
+  z-index: -2;
+  overflow: hidden; }
+  .aboutpage .geenation {
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: fixed;
+    top: -60px; }
+  .aboutpage .floral {
+    width: 50%;
+    left: 26%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 200px;
+    z-index: 3;
+    height: 200px; }
+  .aboutpage .maic {
+    width: 100%;
+    left: -7%;
+    margin-left: 0px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 70px;
+    z-index: 3;
+    height: 400px; }
+  .aboutpage .girls {
+    width: 100%;
+    left: 30%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 70px;
+    z-index: 1;
+    height: 600px; }
+  .aboutpage .girl1 {
+    left: 38%; }
+  .aboutpage .girl2 {
+    top: 30px;
+    left: 35%; }
+  .aboutpage .girl3 {
+    top: 0px;
+    left: 38%; }
+  .aboutpage .shade {
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: 10vh;
+    z-index: -2;
+    background-image: -webkit-gradient(linear, right top, left top, from(#8c3b03), color-stop(transparent), color-stop(transparent), color-stop(transparent), color-stop(transparent), color-stop(transparent), color-stop(transparent), color-stop(transparent), color-stop(transparent), color-stop(transparent), to(#8c3b03));
+    background-image: -webkit-linear-gradient(right, #8c3b03, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, #8c3b03);
+    background-image: -o-linear-gradient(right, #8c3b03, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, #8c3b03);
+    background-image: linear-gradient(to left, #8c3b03, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, #8c3b03);
+    height: 620px; }
+  .aboutpage .aboutslide {
+    position: fixed;
+    width: 68%;
+    left: 16%;
+    top: 52vh;
+    background: #6f3503;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3a1a01), color-stop(#703304), color-stop(#703304), color-stop(#703304), color-stop(#703304), color-stop(#703304), to(#703304));
+    background-image: -webkit-linear-gradient(top, #3a1a01, #703304, #703304, #703304, #703304, #703304, #703304);
+    background-image: -o-linear-gradient(top, #3a1a01, #703304, #703304, #703304, #703304, #703304, #703304);
+    background-image: linear-gradient(to bottom, #3a1a01, #703304, #703304, #703304, #703304, #703304, #703304);
+    height: 320px;
+    z-index: -4; }
+  .aboutpage .framed {
+    position: relative;
+    height: 200px;
+    width: 68%;
+    left: 16%;
+    top: 61vh;
+    z-index: -2; }
+    .aboutpage .framed h3 {
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: 'Raleway', sans-serif; }
+    .aboutpage .framed p {
+      padding-left: 40px;
+      padding-right: 40px;
+      color: #fff;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+      line-height: 1.5em;
+      text-align: justify;
+      word-spacing: 2px; }
+  .aboutpage .segment {
+    width: 70%;
+    height: 438px;
+    position: fixed;
+    opacity: 1;
+    z-index: -1;
+    top: -90px;
+    left: 15%;
+    background-position: top; }
+  .aboutpage .icons {
+    height: 70px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    bottom: 120px; }
+    .aboutpage .icons a {
+      width: 7%;
+      height: 100%;
+      border-radius: 100% !important;
+      -webkit-transition: -webkit-transform 0.5s;
+      transition: -webkit-transform 0.5s;
+      -o-transition: transform 0.5s;
+      transition: transform 0.5s;
+      transition: transform 0.5s, -webkit-transform 0.5s; }
+      .aboutpage .icons a .nion {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; }
+    .aboutpage .icons a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+  .aboutpage .footing {
+    position: absolute;
+    bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+    padding-left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    z-index: 2; }
+    .aboutpage .footing h6 {
+      color: yellow;
+      font-size: 15px; }
+    .aboutpage .footing ul li {
+      color: #fff;
+      font-size: 12px; }
+    .aboutpage .footing ul li a {
+      color: #fff;
+      font-size: 12px; }
+    .aboutpage .footing ul li a:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      opacity: .6; }
+
+@media screen and (max-width: 1200px) {
+  .aboutpage .framed {
+    top: 73vh; }
+  .aboutpage .maic {
+    width: 40%;
+    top: 40px; }
+  .aboutpage .girls {
+    width: 100%;
+    height: 480px; }
+  .aboutpage .girl3 {
+    left: 39%; } }
+
+@media screen and (max-width: 1080px) {
+  .aboutpage .geenation {
+    height: 350px;
+    top: -30px; }
+  .aboutpage .girls {
+    height: 480px; }
+  .aboutpage .girl3 {
+    left: 39%; } }
+
+@media screen and (max-width: 996px) {
+  .aboutpage .geenation {
+    height: 350px;
+    top: -30px; }
+  .aboutpage .girls {
+    height: 400px; }
+  .aboutpage .framed h3 {
+    font-size: 25px; }
+  .aboutpage .framed p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 743px) {
+  .aboutpage .geenation {
+    height: 250px;
+    top: -30px; }
+  .aboutpage .maic {
+    top: 0px; }
+  .aboutpage .girls {
+    height: 350px;
+    z-index: 0; }
+  .aboutpage .floral {
+    top: 90px; }
+  .aboutpage .shade {
+    width: 90%;
+    left: 5%; }
+  .aboutpage .aboutslide {
+    width: 86%;
+    left: 7%;
+    top: 30%;
+    height: 490px; }
+  .aboutpage .segment {
+    width: 90%;
+    left: 5%;
+    height: 308px; }
+  .aboutpage .framed {
+    top: 51vh;
+    width: 78%;
+    left: 12%; }
+    .aboutpage .framed h3 {
+      font-size: 20px; }
+    .aboutpage .framed p {
+      font-size: 12px;
+      padding-left: 5px;
+      padding-right: 5px; }
+  .aboutpage .footing div h6 {
+    font-size: 14px; }
+  .aboutpage .footing div ul li a {
+    font-size: 11px; } }
+
+@media screen and (max-width: 549px) {
+  .aboutpage .geenation {
+    height: 230px;
+    top: -40px; }
+  .aboutpage .floral {
+    top: 70px; }
+  .aboutpage .girls {
+    height: 300px;
+    z-index: 1; }
+  .aboutpage .framed h3 {
+    font-size: 25px; }
+  .aboutpage .framed p {
+    font-size: 13px; }
+  .aboutpage .shade {
+    width: 100%;
+    left: 0%; }
+  .aboutpage .icons {
+    z-index: 3;
+    bottom: 225px; }
+  .aboutpage .footing {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .aboutpage .footing div {
+      min-width: 130px; } }
+
+@media screen and (max-width: 445px) {
+  .aboutpage {
+    height: 1790px; }
+    .aboutpage .geenation {
+      height: 180px;
+      top: -30px; }
+    .aboutpage .maic {
+      left: -3%;
+      top: -40px; }
+    .aboutpage .floral {
+      top: 30px; }
+    .aboutpage .girls {
+      height: 200px;
+      z-index: 1; }
+    .aboutpage .girl2, .aboutpage .girl3 {
+      top: 80px; }
+    .aboutpage .framed {
+      top: 50vh;
+      width: 86%;
+      left: 6%; }
+      .aboutpage .framed h3 {
+        font-size: 18px; }
+      .aboutpage .framed p {
+        font-size: 9px; }
+    .aboutpage .aboutslide {
+      width: 100%;
+      left: 0%; }
+    .aboutpage .segment {
+      height: 290px; }
+    .aboutpage .icons {
+      bottom: 282px; }
+    .aboutpage a {
+      width: 10% !important; }
+    .aboutpage .footing {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding-left: 10px; }
+      .aboutpage .footing div {
+        min-width: 150px; }
+        .aboutpage .footing div h6 {
+          font-size: 12px; }
+        .aboutpage .footing div ul li, .aboutpage .footing div ul li a {
+          font-size: 10px; } }
+
+header nav .row ul .section2 {
+  opacity: 0;
+  visibility: hidden; }
+
+nav {
+  position: fixed; }
